@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBDJ Audio Player</title>
+        <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <div class="stars" id="stars"></div>
+            <div class="vu-meter-container">
+                <div class="vu-meter" id="vu-meter"></div>
+            </div>
+            <div class="logo-circle">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kDc7i3pEatUNrOwVRXzcqcpaJODNCy.png" alt="DJ Logo" class="logo">
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="control-btn" id="playBtn">▶</button>
+            <button class="control-btn" id="stopBtn">■</button>
+        </div>
+        
+        <div class="status-message" id="statusMessage"></div>
+    </div>
+    
+    <audio id="audioPlayer" style="display:none;"></audio>
+    <script src="ini.js"></script> 
+
+    
+</body>
+</html>
